@@ -1,0 +1,37 @@
+.imgCaroussel{
+    width: 100%;
+    height: 700px;
+}
+.carouselSection{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.titreCarousel{
+    font-size: 400%;
+    color: black;
+}
+
+.textCarousel{
+    font-size: 200%;
+}
+
+.titreCarousel:hover {
+    scale: 1.2;
+}
+.textCarousel:hover {
+    scale: 1.2;
+}
+.jambe{
+    width: 40%;
+    height: 700px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.textJambe{
+    color: black;
+    font-size: 200%;
+    font-weight: bold;
+}
+.textJambe:hover {
+    scale: 1.2;
+}

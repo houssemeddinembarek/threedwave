@@ -1,0 +1,149 @@
+.header {
+  margin: 0px auto;
+  background-color: #fff;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sliderStyle {
+  display: none;
+}
+
+.imageStyle {
+  width: 100% !important;
+}
+
+.blocImage {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.first {
+  height: 100%;
+  background-image: url("../assets/images/3D-printing.jpg");
+}
+
+.second {
+  height: 100%;
+  background-image: url("../assets/images/ar.jpg");
+}
+
+.third {
+  background-image: url("../assets/images/scan-3d.jpg");
+  height: 100%;
+}
+
+.textFirst {
+  width: 100%;
+  height: 30%;
+  margin-top: 40%;
+  position: relative;
+  animation-name: animTextFirst;
+  animation-duration: 8s;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 35%;
+}
+
+/* @keyframes animTextFirst {
+  0% {
+    bottom: 30%;
+  }
+  50% {
+    bottom: 20%;
+  }
+  100% {
+    bottom: 30%;
+  }
+} */
+
+.newEdge {
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.imageKeys {
+  z-index: 99;
+}
+
+.textKeys {
+  background-color: red;
+  z-index: 999;
+  position: relative;
+}
+
+.backImage {
+  /* background-image: url("../assets/images/keys.jpg"); */
+  background-image: url("../assets/images/startup-business.jpg");
+}
+
+.textImageKey {
+  width: 800px;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+
+.parent-wrapper {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 40%;
+}
+
+.parent {
+  display: flex;
+  font-size: 0;
+  flex-wrap: wrap;
+  /* margin: -10px 0 0 -10px; */
+}
+
+.first:hover .textFirst,
+.first:focus .textFirst {
+  margin-left: 50px;  
+  transition-duration: 2s;
+  transform: scale(1.2);
+}
+
+.second:hover .textFirst,
+.second:focus .textFirst {
+  margin-left: 50px;  
+  margin-bottom: 30%;
+  transition-duration: 2s;
+  transform: scale(1.2);
+}
+
+.third:hover .textFirst,
+.third:focus .textFirst {
+  margin-left: 50px;  
+  margin-bottom: 15px;
+  transition-duration: 2s;
+  transform: scale(1.2);
+}
+
+.titleImage{
+  width: 130%;
+}
+.textSecondImage{
+  width: 120%;
+}
+.carouselStyle{
+  height: 200px;
+}
+.carouselStyle{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ourPartner{
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.threeImages{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.ourProjects{
+  margin-left: 5%;
+  margin-right: 5%;
+}

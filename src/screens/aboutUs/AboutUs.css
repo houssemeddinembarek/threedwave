@@ -1,0 +1,26 @@
+.highImageIndustrial{
+    width: 100%;
+    height: 500px; 
+}
+
+.text{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+}
+
+.about1Image{
+    width: 70%;
+    z-index: 1;
+    position: absolute;
+}
+
+.about2Image{
+    width: 45%;
+    height: 40%;
+    z-index: 9;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 30%;
+}
