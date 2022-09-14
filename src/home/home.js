@@ -366,7 +366,7 @@ const Home = () => {
       <section className="content-block portfolio-block ourProjects" id="container">
         <div className="bottom-space text-center text-uppercase">
           <h2>Our Projects</h2>
-          <h4>Wonderful digital things require a good mix of combined skills</h4>
+          {/* <h4>Wonderful digital things require a good mix of combined skills</h4> */}
         </div>
         <ul className="filter-nav text-center button-group filter-button-group">
           <li>
